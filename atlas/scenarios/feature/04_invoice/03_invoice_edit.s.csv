@@ -1,0 +1,32 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/invoice.sah"
+
+,"[Global]",,"[SetUpOnce]"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+
+,,,"[TearDownOnce]"
+,,,"Logout"
+
+,,,"[SetUp]"
+,,,"Create Invoice","Invoice:$Invoice","Client:$Client","Product:$Product"
+
+,,,"[TearDown]"
+,,,"Delete Invoice","Invoice:$Invoice"
+
+"admin,invoice_edit","INVO-07","[../../../data/edit/invoice.csv:INVO-07]","[Documentation]","An admin edits a draft Invoice.","ats_hash:b5255b03cdb1763a"
+
+,,,"[SetUp]"
+
+,,,"[TestBody]"
+,,,"Open Edit Invoice Form"
+,,,"Enter Invoice Details","Invoice:$Invoice"
+,,,"Set Client","Client:$Client"
+,,,"Set Product","Product:$Product"
+,,,"Submit Edit Invoice Form"
+,,,"Verify Invoice Details","Invoice:$Invoice"
+,,,"Verify Client","Client:$Client"
+,,,"Verify Product","Product:$Product"
+
+,,,"[TearDown]"

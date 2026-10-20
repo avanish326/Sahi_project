@@ -1,0 +1,5 @@
+"INVO-02","Comment","$Client.Name","$Product.Name","$Invoice.InvoiceNumber","$Invoice.DueDate","$Invoice.TotalAmount","$Invoice.Notes","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
+,"TODO: no field-level validation declared or inferable from the mapp model for this form — check the real UI/API for required fields or other rules not tracked here, and add rows for them.","Client 1","Product 1","Test Invoice Number","2024-01-01","100","Test Notes","onSubmit","TODO: add the real validation error text here",""""""
+
+"INVO-08","Comment","$Client.Name","$Product.Name","$Invoice.InvoiceNumber","$Invoice.DueDate","$Invoice.TotalAmount","$Invoice.Notes","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
+,"TODO: no field-level validation declared or inferable from the mapp model for this form — check the real UI/API for required fields or other rules not tracked here, and add rows for them.","Client 1","Product 1","Test Invoice Number","2024-01-01","100","Test Notes","onSubmit","TODO: add the real validation error text here",""""""

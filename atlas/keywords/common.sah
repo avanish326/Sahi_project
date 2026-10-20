@@ -1,0 +1,15 @@
+/**
+ * Login
+ * @param $UserName - User Name
+ * @param $Password - Password
+ */
+function Login($UserName, $Password) {
+  // TODO: implement
+}
+
+/**
+ * Logout
+ */
+function Logout() {
+  // TODO: implement
+}

@@ -1,0 +1,28 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/client.sah"
+
+,"[Global]",,"[SetUpOnce]"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+,,"[../../../data/setup/client.csv:edit-active-once]","Create Client","Client:$Client"
+
+,,,"[TearDownOnce]"
+,,,"Delete Client","Client:$Client"
+,,,"Logout"
+
+,,,"[SetUp]"
+
+"admin,client_edit,validation","CLIE-05","[../../../data/validation/client.csv:CLIE-05]","[Documentation]","An admin submits the edit form for an active Client with invalid input; the corresponding validation error is shown for each case below; user corrects input and resubmits successfully.","ats_hash:4d84d8dcb113ebb7"
+
+,,,"[SetUp]"
+,,,"Open Edit Client Form"
+
+,,,"[TestBody]"
+,,,"Enter Client Details","Client:$Client"
+,,,"Verify Client Inline Validation Error","TestValidation:$TestValidation"
+,,,"Submit Edit Client Form"
+,,,"Verify Client OnSubmit Validation Error","TestValidation:$TestValidation"
+
+,,,"[TearDown]"
+,,,"Teardown Edit Client"

@@ -1,0 +1,23 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/client.sah"
+
+,"[Global]",,"[SetUpOnce]"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+
+,,,"[TearDownOnce]"
+,,,"Logout"
+
+,,,"[SetUp]"
+
+"admin,client_delete","CLIE-06","[../../../data/delete/client.csv:CLIE-06]","[Documentation]","An admin deletes any client; the entity moves to DELETED state.","ats_hash:415214f373ab5388"
+
+,,,"[SetUp]"
+,,"[../../../data/setup/client.csv:CLIE-06]","Create Client","Client:$Client"
+
+,,,"[TestBody]"
+,,,"Delete Client","Client:$Client"
+,,,"Verify Client Deleted","Client:$Client"
+
+,,,"[TearDown]"

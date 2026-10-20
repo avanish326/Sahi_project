@@ -1,0 +1,6 @@
+"USER-02","Comment","$User.Email","$User.Password","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
+,"email and password match an active account","test@example.com","Test Password","""""","Invalid email or password",""""""
+
+"USER-04","Comment","$User.Email","$User.Password","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
+,"Email","""""","Test Password","""""","Email is required.",""""""
+,"Password","test@example.com","""""","""""","Password is required.",""""""

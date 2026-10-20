@@ -1,0 +1,23 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/product.sah"
+
+,"[Global]",,"[SetUpOnce]"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+
+,,,"[TearDownOnce]"
+,,,"Logout"
+
+,,,"[SetUp]"
+
+"admin,product_delete","PROD-06","[../../../data/delete/product.csv:PROD-06]","[Documentation]","An admin deletes any product; the entity moves to DELETED state.","ats_hash:09d2f417bf493de5"
+
+,,,"[SetUp]"
+,,"[../../../data/setup/product.csv:PROD-06]","Create Product","Product:$Product"
+
+,,,"[TestBody]"
+,,,"Delete Product","Product:$Product"
+,,,"Verify Product Deleted","Product:$Product"
+
+,,,"[TearDown]"

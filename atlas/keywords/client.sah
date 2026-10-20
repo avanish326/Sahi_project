@@ -1,0 +1,113 @@
+/**
+ * OpenCreateClientForm
+ */
+function OpenCreateClientForm() {
+  // TODO: implement
+}
+
+/**
+ * EnterClientDetails
+ * @param $Client - Client
+ * @paramobject Client.Name, Client.Email, Client.Phone, Client.Address
+ */
+function EnterClientDetails($Client) {
+  // TODO: implement
+}
+
+/**
+ * SubmitCreateClientForm
+ */
+function SubmitCreateClientForm() {
+  // TODO: implement
+}
+
+/**
+ * VerifyClientDetails
+ * @param $Client - Client
+ * @paramobject Client.Name, Client.Email, Client.Phone, Client.Address
+ */
+function VerifyClientDetails($Client) {
+  // TODO: implement
+}
+
+/**
+ * DeleteClient
+ * @param $Client - Client
+ * @paramobject Client.Name, Client.Email, Client.Phone, Client.Address
+ */
+function DeleteClient($Client) {
+  // TODO: implement
+}
+
+/**
+ * VerifyClientInlineValidationError
+ * @param $TestValidation - Test Validation
+ */
+function VerifyClientInlineValidationError($TestValidation) {
+  // TODO: implement
+}
+
+/**
+ * VerifyClientOnSubmitValidationError
+ * @param $TestValidation - Test Validation
+ */
+function VerifyClientOnSubmitValidationError($TestValidation) {
+  // TODO: implement
+}
+
+/**
+ * TeardownCreateClient
+ */
+function TeardownCreateClient() {
+  // TODO: implement
+}
+
+/**
+ * ViewClient
+ * @param $Client - Client
+ * @paramobject Client.Name, Client.Email, Client.Phone, Client.Address
+ */
+function ViewClient($Client) {
+  // TODO: implement
+}
+
+/**
+ * CreateClient
+ * @param $Client - Client
+ * @paramobject Client.Name, Client.Email, Client.Phone, Client.Address
+ */
+function CreateClient($Client) {
+  OpenCreateClientForm();
+  EnterClientDetails($Client);
+  SubmitCreateClientForm();
+}
+
+/**
+ * OpenEditClientForm
+ */
+function OpenEditClientForm() {
+  // TODO: implement
+}
+
+/**
+ * SubmitEditClientForm
+ */
+function SubmitEditClientForm() {
+  // TODO: implement
+}
+
+/**
+ * TeardownEditClient
+ */
+function TeardownEditClient() {
+  // TODO: implement
+}
+
+/**
+ * VerifyClientDeleted
+ * @param $Client - Client
+ * @paramobject Client.Name, Client.Email, Client.Phone, Client.Address
+ */
+function VerifyClientDeleted($Client) {
+  // TODO: implement
+}

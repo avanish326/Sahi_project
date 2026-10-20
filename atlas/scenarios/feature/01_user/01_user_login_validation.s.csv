@@ -1,0 +1,38 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/user.sah"
+
+,"[Global]",,"[SetUpOnce]"
+
+,,,"[TearDownOnce]"
+
+,,,"[SetUp]"
+
+"anonymous,user_login,validation","USER-02","[../../../data/validation/user.csv:USER-02]","[Documentation]","An anonymous user submits the login form with invalid input; the corresponding validation error is shown for each case below; user corrects input and resubmits successfully.","ats_hash:b741031ff504a638"
+
+,,,"[SetUp]"
+,,"[../../../data/login_data.csv:ANONYMOUS]","Login","UserName:anonymous","Password:secret"
+
+,,,"[TestBody]"
+,,,"Enter Credentials","User:$User"
+,,,"Verify User Inline Validation Error","TestValidation:$TestValidation"
+,,,"Submit Login"
+,,,"Verify User OnSubmit Validation Error","TestValidation:$TestValidation"
+
+,,,"[TearDown]"
+,,,"Teardown Login User"
+
+"admin,user_login,validation","USER-04","[../../../data/validation/user.csv:USER-04]","[Documentation]","An admin submits the login form with invalid input; the corresponding validation error is shown for each case below; user corrects input and resubmits successfully.","ats_hash:c43f56234776af1e"
+
+,,,"[SetUp]"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+,,,[TODO],"Satisfy: user <is> actor"
+
+,,,"[TestBody]"
+,,,"Verify User Inline Validation Error","TestValidation:$TestValidation"
+,,,"Login User","User:$User"
+,,,"Verify User OnSubmit Validation Error","TestValidation:$TestValidation"
+
+,,,"[TearDown]"
+,,,"Teardown Login User"

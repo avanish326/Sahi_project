@@ -1,0 +1,25 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/client.sah"
+
+,"[Global]",,"[SetUpOnce]"
+
+,,,"[TearDownOnce]"
+
+,,,"[SetUp]"
+
+"admin,client_delete,access","CLIE-10","[../../../data/access/client.csv:CLIE-10]","[Documentation]","An admin with the required access deletes any client.","ats_hash:94ecb242394324d7"
+
+,,,"[SetUp]"
+,,"[../../../data/login_data.csv:$creator_user]","Login","UserName:admin","Password:secret"
+,,,"Create Client","Client:$Client"
+,,,"Logout"
+,,"[../../../data/login_data.csv:$actor_user]","Login","UserName:admin","Password:secret"
+
+,,,"[TestBody]"
+,,,"Delete Client","Client:$Client"
+,,,"Verify Client Deleted","Client:$Client"
+
+,,,"[TearDown]"
+,,,"Logout"

@@ -1,0 +1,17 @@
+"CLIE-03","Comment","$Client.Name","$Client.Email","$Client.Phone","$Client.Address"
+,"SetUp","[../atlas.datagen.csv:ClientName]","test@example.com","1234567890","Test Address"
+
+"edit-active-once","Comment","$Client.Email","$Client.Phone","$Client.Address"
+,"SetUp","test@example.com","1234567890","Test Address"
+
+"CLIE-06","Comment","$Client.Name","$Client.Email","$Client.Phone","$Client.Address"
+,"SetUp","[../atlas.datagen.csv:ClientName]","test@example.com","1234567890","Test Address"
+
+"CLIE-08","Comment","$Client.Name","$Client.Email","$Client.Phone","$Client.Address"
+,"SetUp","[../atlas.datagen.csv:ClientName]","test@example.com","1234567890","Test Address"
+
+"CLIE-09","Comment","$Client.Name","$Client.Email","$Client.Phone","$Client.Address"
+,"SetUp","[../atlas.datagen.csv:ClientName]","test@example.com","1234567890","Test Address"
+
+"CLIE-10","Comment","$Client.Name","$Client.Email","$Client.Phone","$Client.Address"
+,"SetUp","[../atlas.datagen.csv:ClientName]","test@example.com","1234567890","Test Address"

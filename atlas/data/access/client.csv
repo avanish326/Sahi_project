@@ -1,0 +1,11 @@
+"CLIE-07","actor_user"
+,"ADMIN"
+
+"CLIE-08","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"CLIE-09","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"CLIE-10","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"

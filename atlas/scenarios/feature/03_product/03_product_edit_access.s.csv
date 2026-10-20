@@ -1,0 +1,30 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/product.sah"
+
+,"[Global]",,"[SetUpOnce]"
+
+,,,"[TearDownOnce]"
+
+,,,"[SetUp]"
+
+"admin,product_edit,access","PROD-09","[../../../data/access/product.csv:PROD-09]","[Documentation]","An admin with the required access edits an active product.","ats_hash:116abfd03dc81541"
+
+,,,"[SetUp]"
+,,"[../../../data/login_data.csv:$creator_user]","Login","UserName:admin","Password:secret"
+,,,"Create Product","Product:$Product"
+,,,"Logout"
+,,"[../../../data/login_data.csv:$actor_user]","Login","UserName:admin","Password:secret"
+
+,,,"[TestBody]"
+,,,"Open Edit Product Form"
+,,,"Enter Product Details","Product:$Product"
+,,,"Submit Edit Product Form"
+,,,"Verify Product Details","Product:$Product"
+
+,,,"[TearDown]"
+,,,"Logout"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+,,,"Delete Product","Product:$Product"
+,,,"Logout"

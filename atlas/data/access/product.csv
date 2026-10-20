@@ -1,0 +1,11 @@
+"PROD-07","actor_user"
+,"ADMIN"
+
+"PROD-08","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"PROD-09","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"PROD-10","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"

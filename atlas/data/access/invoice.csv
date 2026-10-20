@@ -1,0 +1,32 @@
+"INVO-14","actor_user","$Client.Name","$Product.Name"
+,"ADMIN","Client 1","Product 1"
+
+"INVO-15","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-16","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-17","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-18","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-19","Comment","creator_user","actor_user","$Client.Name","$Product.Name"
+,"Same user","ADMIN","ADMIN","Client 1","Product 1"
+
+"INVO-20","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-21","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-22","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-23","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"
+
+"INVO-24","Comment","creator_user","actor_user"
+,"Same user","ADMIN","ADMIN"

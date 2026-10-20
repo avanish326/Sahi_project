@@ -1,0 +1,29 @@
+"Tags","TestCase","Data","Key Word","Argument 1","Argument 2"
+
+,,,"loadSahi","../../../keywords/common.sah"
+,,,"loadSahi","../../../keywords/invoice.sah"
+
+,"[Global]",,"[SetUpOnce]"
+,,"[../../../data/login_data.csv:ADMIN]","Login","UserName:admin","Password:secret"
+
+,,,"[TearDownOnce]"
+,,,"Logout"
+
+,,,"[SetUp]"
+
+"admin,invoice_create","INVO-01","[../../../data/create/invoice.csv:INVO-01]","[Documentation]","An admin creates a new invoice; the entity moves to DRAFT state.","ats_hash:028d498e5de67f5b"
+
+,,,"[SetUp]"
+
+,,,"[TestBody]"
+,,,"Open Create Invoice Form"
+,,,"Enter Invoice Details","Invoice:$Invoice"
+,,,"Set Client","Client:$Client"
+,,,"Set Product","Product:$Product"
+,,,"Submit Create Invoice Form"
+,,,"Verify Invoice Details","Invoice:$Invoice"
+,,,"Verify Client","Client:$Client"
+,,,"Verify Product","Product:$Product"
+
+,,,"[TearDown]"
+,,,"Delete Invoice","Invoice:$Invoice"

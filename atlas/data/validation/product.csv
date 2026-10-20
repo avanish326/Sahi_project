@@ -1,0 +1,5 @@
+"PROD-02","Comment","$Product.Description","$Product.Price","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
+,"TODO: no field-level validation declared or inferable from the mapp model for this form — check the real UI/API for required fields or other rules not tracked here, and add rows for them.","Test Description","100","onSubmit","TODO: add the real validation error text here",""""""
+
+"PROD-05","Comment","$Product.Description","$Product.Price","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
+,"TODO: no field-level validation declared or inferable from the mapp model for this form — check the real UI/API for required fields or other rules not tracked here, and add rows for them.","Test Description","100","onSubmit","TODO: add the real validation error text here",""""""

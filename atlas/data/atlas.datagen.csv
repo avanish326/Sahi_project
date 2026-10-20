@@ -1,0 +1,3 @@
+"Name","Type","Parameters"
+"ClientName","text","prefix:TEST_Client_","min-length:4","max-length:4","include-numeric:true","add-timestamp:true"
+"ProductName","text","prefix:TEST_Product_","min-length:4","max-length:4","include-numeric:true","add-timestamp:true"

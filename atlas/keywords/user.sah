@@ -1,0 +1,72 @@
+/**
+ * EnterCredentials
+ * @param $User - User
+ * @paramobject User.Email, User.Password
+ */
+function EnterCredentials($User) {
+  // TODO: implement
+}
+
+/**
+ * SubmitLogin
+ */
+function SubmitLogin() {
+  // TODO: implement
+}
+
+/**
+ * VerifyUserDetails
+ * @param $User - User
+ * @paramobject User.Email, User.Password
+ */
+function VerifyUserDetails($User) {
+  // TODO: implement
+}
+
+/**
+ * DeleteUser
+ * @param $User - User
+ * @paramobject User.Email, User.Password
+ */
+function DeleteUser($User) {
+  // TODO: implement
+}
+
+/**
+ * LoginUser
+ * @param $User - User
+ * @paramobject User.Email, User.Password
+ */
+function LoginUser($User) {
+  // TODO: implement
+}
+
+/**
+ * VerifyUserInlineValidationError
+ * @param $TestValidation - Test Validation
+ */
+function VerifyUserInlineValidationError($TestValidation) {
+  // TODO: implement
+}
+
+/**
+ * VerifyUserOnSubmitValidationError
+ * @param $TestValidation - Test Validation
+ */
+function VerifyUserOnSubmitValidationError($TestValidation) {
+  // TODO: implement
+}
+
+/**
+ * TeardownLoginUser
+ */
+function TeardownLoginUser() {
+  // TODO: implement
+}
+
+/**
+ * VerifyUserNotAccessible
+ */
+function VerifyUserNotAccessible() {
+  // TODO: implement
+}
