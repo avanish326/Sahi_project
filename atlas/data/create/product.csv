@@ -1,2 +1,0 @@
-"PROD-01","Comment","$Product.Name","$Product.Description","$Product.Price"
-,"Happy Path","[../atlas.datagen.csv:ProductName]","Test Description","100"

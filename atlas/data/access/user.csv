@@ -1,5 +1,0 @@
-"USER-05","Comment","creator_user","actor_user"
-,"Same user","ADMIN","ADMIN"
-
-"USER-06","Comment","creator_user","actor_user"
-,"Different user, same role","ADMIN_ALT","ADMIN"

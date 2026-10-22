@@ -1,2 +1,0 @@
-"INVO-07","Comment","$Invoice.InvoiceNumber","$Invoice.DueDate","$Invoice.TotalAmount","$Invoice.Notes","$Client.Name","$Product.Name"
-,"Happy Path","Test Invoice Number","2024-01-01","100","Test Notes","Client 1","Product 1"

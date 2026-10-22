@@ -1,2 +1,0 @@
-"CLIE-01","Comment","$Client.Name","$Client.Email","$Client.Phone","$Client.Address"
-,"Happy Path","[../atlas.datagen.csv:ClientName]","test@example.com","1234567890","Test Address"
