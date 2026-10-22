@@ -1,0 +1,11 @@
+_include("test_AR.sah");
+
+/**
+* Login
+*/
+function Login() {
+	_click($_SPAN_CARET);
+	_click($_LINK_LOGIN);
+	_setValue($_TEXTBOX_EMAIL, "test");
+	_click($_DIV_RETURNINGCUSTOMERIAMARETURNINGCUSTOMEREMAILADDRESSPASSWORDFORGOTTENPASSWORD);
+}
