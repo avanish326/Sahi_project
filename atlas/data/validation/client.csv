@@ -1,5 +1,0 @@
-"CLIE-02","Comment","$Client.Email","$Client.Phone","$Client.Address","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
-,"TODO: no field-level validation declared or inferable from the mapp model for this form — check the real UI/API for required fields or other rules not tracked here, and add rows for them.","test@example.com","1234567890","Test Address","onSubmit","TODO: add the real validation error text here",""""""
-
-"CLIE-05","Comment","$Client.Email","$Client.Phone","$Client.Address","$TestValidation.Timing","$TestValidation.Message","$TestValidation.ErrorElement"
-,"TODO: no field-level validation declared or inferable from the mapp model for this form — check the real UI/API for required fields or other rules not tracked here, and add rows for them.","test@example.com","1234567890","Test Address","onSubmit","TODO: add the real validation error text here",""""""
